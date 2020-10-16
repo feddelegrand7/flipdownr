@@ -16,3 +16,5 @@ Imports:
     htmltools,
     glue,
     jsonlite
+URL: https://github.com/feddelegrand7/flipdownr
+BugReports: https://github.com/feddelegrand7/flipdownr/issues
