@@ -15,8 +15,9 @@
 #'
 
 
-flipdown <- function(downto, id, theme = "dark", headings = c("Days", "Hours", "Minutes", "Seconds")){
-
+flipdown <- function(downto, id,
+                     theme = "dark",
+                     headings = c("Days", "Hours", "Minutes", "Seconds")){
 
 
   if(!(theme == "dark" | theme == "light")){

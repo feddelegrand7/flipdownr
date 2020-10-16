@@ -7,46 +7,49 @@
 
 <!-- badges: end -->
 
-The goal of flipdownr is to …
+The goal of flipdownr is to create a Countdown object within your
+RMarkdown documents and Shiny application. `flipdownr` is an R wrapper
+of the JavaScript library [flipdown](https://pbutcher.uk/flipdown/)
 
 ## Installation
 
-You can install the released version of flipdownr from
-[CRAN](https://CRAN.R-project.org) with:
+You can install the development version of flipdownr from
+[GITHUB](https://github.com/feddelegrand7/flipdownr) with:
 
 ``` r
-install.packages("flipdownr")
+
+# install.packages("remotes")
+
+remotes::install_github("feddelegrand7/flipdownr")
 ```
 
-## Example
+## Functions and Arguments
 
-This is a basic example which shows you how to solve a common problem:
+  - `flipdownr` has one function: `flipdown` which contains the
+    following arguments:
 
-``` r
-library(flipdownr)
-## basic example code
-```
+  - `downto`: the targeted date for the countdown. It must have the form
+    of ‘yyyy-mm-dd’ or ‘yyyy-mm-dd hh:mm:ss\`. Note that you can include
+    the time zone (example UTC): ’yyyy-mm-dd hh:mm:ss UTC’;
 
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
+  - `id`: the id of the countdown. Useful when you need to include many
+    countdown objects in one document;
 
-``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
-```
+  - `theme`: The theme of the flipdown object. Two possible choices:
+    ‘dark’ or ‘light’. Defaults to ‘dark’
 
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date.
+  - `headings`: A character vector pecifying the heading related to each
+    time part. Defaults to English headings: c(“Days”, “Hours”,
+    “Minutes”, “Seconds”).
 
-You can also embed plots, for example:
+## Examples
 
-<img src="man/figures/README-pressure-1.png" width="100%" />
+A demo is available
+[here](https://ihaddadenfodil.com/post/introducing-the-flipdownr-package-create-a-countdown-in-rmarkdown-documents-and-shiny-apps/)
 
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub\!
+## Code of Conduct
+
+Please note that the flipdownr project is released with a [Contributor
+Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
