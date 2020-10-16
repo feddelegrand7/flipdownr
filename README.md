@@ -11,6 +11,8 @@ The goal of flipdownr is to create a Countdown object within your
 RMarkdown documents and Shiny application. `flipdownr` is an R wrapper
 of the JavaScript library [flipdown](https://pbutcher.uk/flipdown/)
 
+![](man/figures/bh.gif)
+
 ## Installation
 
 You can install the development version of flipdownr from

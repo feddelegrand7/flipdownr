@@ -4,3 +4,5 @@
 ^LICENSE\.md$
 ^cran-comments\.md$
 ^CODE_OF_CONDUCT\.md$
+^CRAN-RELEASE$
+^man/figures/bh\.gif$
