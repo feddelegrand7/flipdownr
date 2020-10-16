@@ -1,12 +1,14 @@
 Package: flipdownr
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Implement a Countdown in 'RMarkdown' Documents and 'shiny' Applications
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Authors@R: c( 
+    person("Mohamed El Fodil", "Ihaddaden", email = "ihaddaden.fodeil@gmail.com", role = c("aut", "cre")),
+    person("Butcher", "Peter", role = c("ctb", "cph"), comment = "flipdown.js library developer")) 
+Maintainer: Mohamed El Fodil Ihaddaden <ihaddaden.fodeil@gmail.com>
+Description: Allows the user to create a countdown in 'RMarkdown' documents and 'shiny' applications. 
+    The package is a wrapper of the 'JavaScript' library 'flipdown.js'. See <https://pbutcher.uk/flipdown/> for more info.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.1
