@@ -49,6 +49,10 @@ remotes::install_github("feddelegrand7/flipdownr")
 A demo is available
 [here](https://ihaddadenfodil.com/post/introducing-the-flipdownr-package-create-a-countdown-in-rmarkdown-documents-and-shiny-apps/)
 
+## Related
+
+#### [countdown](https://github.com/gadenbuie/countdown): countdown timer for R Markdown slides and HTML docs.
+
 ## Code of Conduct
 
 Please note that the flipdownr project is released with a [Contributor
