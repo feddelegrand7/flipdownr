@@ -2,6 +2,9 @@
 output: github_document
 ---
 
+
+
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 ```{r, include = FALSE}
@@ -16,6 +19,15 @@ knitr::opts_chunk$set(
 # flipdownr <a><img src='man/figures/hex.png' align="right" height="200" /></a>
 
 <!-- badges: start -->
+[![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/flipdownr)](https://cran.r-project.org/package=flipdownr)
+[![CRAN\_time\_from\_release](https://www.r-pkg.org/badges/ago/flipdownr)](https://cran.r-project.org/package=flipdownr)
+[![metacran
+downloads](https://cranlogs.r-pkg.org/badges/flipdownr)](https://cran.r-project.org/package=flipdownr)
+[![metacran
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/flipdownr)](https://cran.r-project.org/package=flipdownr)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://choosealicense.com/licenses/mit/)
+[![R
+badge](https://img.shields.io/badge/Build%20with-♥%20and%20R-orange)](https://github.com/feddelegrand7/flipdownr)
 <!-- badges: end -->
 
 The goal of flipdownr is to create a Countdown object within your RMarkdown documents and Shiny application. `flipdownr` is an R wrapper of the JavaScript library [flipdown](https://pbutcher.uk/flipdown/)
