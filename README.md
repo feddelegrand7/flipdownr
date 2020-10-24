@@ -5,7 +5,22 @@
 
 <!-- badges: start -->
 
-<!-- badges: end -->
+[![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/flipdownr)](https://cran.r-project.org/package=flipdownr)
+
+[![CRAN\_time\_from\_release](https://www.r-pkg.org/badges/ago/flipdownr)](https://cran.r-project.org/package=flipdownr)
+
+[![CRAN\_latest\_release\_date](https://www.r-pkg.org/badges/last-release/flipdownr)](https://cran.r-project.org/package=flipdownr)
+
+[![metacran
+downloads](https://cranlogs.r-pkg.org/badges/flipdownr)](https://cran.r-project.org/package=flipdownr)
+
+[![metacran
+downloads](https://cranlogs.r-pkg.org/badges/grand-total/flipdownr)](https://cran.r-project.org/package=flipdownr)
+
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://choosealicense.com/licenses/mit/)
+
+[![R
+badge](https://img.shields.io/badge/Build%20with-♥%20and%20R-orange)](https://github.com/feddelegrand7/flipdownr)
 
 The goal of flipdownr is to create a Countdown object within your
 RMarkdown documents and Shiny application. `flipdownr` is an R wrapper
