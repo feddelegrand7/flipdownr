@@ -25,17 +25,17 @@ install.packages("flipdownr")
   - `flipdownr` has one function: `flipdown` which contains the
     following arguments:
 
-  - `downto`: the targeted date for the countdown. It must have the form
+  + `downto`: the targeted date for the countdown. It must have the form
     of ‘yyyy-mm-dd’ or ‘yyyy-mm-dd hh:mm:ss\`. Note that you can include
     the time zone (example UTC): ’yyyy-mm-dd hh:mm:ss UTC’;
 
-  - `id`: the id of the countdown. Useful when you need to include many
+  + `id`: the id of the countdown. Useful when you need to include many
     countdown objects in one document;
 
-  - `theme`: The theme of the flipdown object. Two possible choices:
+  + `theme`: The theme of the flipdown object. Two possible choices:
     ‘dark’ or ‘light’. Defaults to ‘dark’
 
-  - `headings`: A character vector pecifying the heading related to each
+  + `headings`: A character vector pecifying the heading related to each
     time part. Defaults to English headings: c(“Days”, “Hours”,
     “Minutes”, “Seconds”).
 
