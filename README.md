@@ -17,14 +17,11 @@ of the JavaScript library [flipdown](https://pbutcher.uk/flipdown/)
 
 ## Installation
 
-You can install the development version of flipdownr from
-[GITHUB](https://github.com/feddelegrand7/flipdownr) with:
+You can install `flipdownr` from CRAN with:
 
 ``` r
 
-# install.packages("remotes")
-
-remotes::install_github("feddelegrand7/flipdownr")
+install.packages("flipdownr")
 ```
 
 ## Functions and Arguments
