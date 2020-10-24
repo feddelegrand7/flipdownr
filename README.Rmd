@@ -13,13 +13,14 @@ knitr::opts_chunk$set(
 )
 ```
 
-# flipdownr
+# flipdownr <a><img src='man/figures/hex.png' align="right" height="200" /></a>
 
 <!-- badges: start -->
 <!-- badges: end -->
 
 The goal of flipdownr is to create a Countdown object within your RMarkdown documents and Shiny application. `flipdownr` is an R wrapper of the JavaScript library [flipdown](https://pbutcher.uk/flipdown/)
 
+<br>
 
 ![](man/figures/bh.gif)
 
