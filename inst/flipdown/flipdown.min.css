@@ -77,14 +77,14 @@
 .flipdown.flipdown__theme-gdila .rotor,
 .flipdown.flipdown__theme-gdila .rotor-leaf-front,
 .flipdown.flipdown__theme-gdila .rotor-top {
-    color: #fff;
+    color: #BD93F9;
     background-color: #9d6279
 }
 
 .flipdown.flipdown__theme-gdila .rotor-bottom,
 .flipdown.flipdown__theme-gdila .rotor-leaf-rear {
     color: #efefef;
-    background-color: #9d6279
+    background-color: #BD93F9
 }
 
 .flipdown.flipdown__theme-gdila .rotor:after {
