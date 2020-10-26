@@ -61,7 +61,7 @@
 }
 
 .flipdown.flipdown__theme-gdila {
-    font-family: sans-serif;
+    font-family: Zapf Chancery, cursive;
     font-weight: 700
 }
 
@@ -89,6 +89,37 @@
 
 .flipdown.flipdown__theme-gdila .rotor:after {
     border-top: solid 1px #9d6279
+}
+
+.flipdown.flipdown__theme-ifri {
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    font-weight: 700
+}
+
+.flipdown.flipdown__theme-ifri .rotor-group-heading:before {
+    color: #E66283
+}
+
+.flipdown.flipdown__theme-ifri .rotor-group:nth-child(n+2):nth-child(-n+3):after,
+.flipdown.flipdown__theme-ifri .rotor-group:nth-child(n+2):nth-child(-n+3):before {
+    background-color: #E66283
+}
+
+.flipdown.flipdown__theme-ifri .rotor,
+.flipdown.flipdown__theme-ifri .rotor-leaf-front,
+.flipdown.flipdown__theme-ifri .rotor-top {
+    color: #E66283;
+    background-color: #47FA65
+}
+
+.flipdown.flipdown__theme-ifri .rotor-bottom,
+.flipdown.flipdown__theme-ifri .rotor-leaf-rear {
+    color: #efefef;
+    background-color: #E66283
+}
+
+.flipdown.flipdown__theme-ifri .rotor:after {
+    border-top: solid 1px #47FA65
 }
 
 .flipdown.flipdown__theme-light {
