@@ -19,10 +19,9 @@ flipdown <- function(downto, id,
                      theme = "dark",
                      headings = c("Days", "Hours", "Minutes", "Seconds")){
 
+  if(!theme %in% c("dark", "light", "gdila", "youkous")) {
 
-  if(!(theme == "dark" | theme == "light" | theme == "gdila")){
-
-    stop("two themes are available: 'dark' or 'light'")
+    stop("these themes are available: 'dark', 'light', 'gdila', 'youkous'")
 
   }
 
