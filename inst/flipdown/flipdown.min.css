@@ -122,6 +122,37 @@
     border-top: solid 1px #47FA65
 }
 
+.flipdown.flipdown__theme-saida {
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    font-weight: 700
+}
+
+.flipdown.flipdown__theme-saida .rotor-group-heading:before {
+    color: #9C4668
+}
+
+.flipdown.flipdown__theme-saida .rotor-group:nth-child(n+2):nth-child(-n+3):after,
+.flipdown.flipdown__theme-saida .rotor-group:nth-child(n+2):nth-child(-n+3):before {
+    background-color: #93C2DB
+}
+
+.flipdown.flipdown__theme-saida .rotor,
+.flipdown.flipdown__theme-saida .rotor-leaf-front,
+.flipdown.flipdown__theme-saida .rotor-top {
+    color: #E66283;
+    background-color: #9C4668
+}
+
+.flipdown.flipdown__theme-saida .rotor-bottom,
+.flipdown.flipdown__theme-saida .rotor-leaf-rear {
+    color: #efefef;
+    background-color: #9C4668
+}
+
+.flipdown.flipdown__theme-saida .rotor:after {
+    border-top: solid 1px #9C4668
+}
+
 .flipdown.flipdown__theme-light {
     font-family: sans-serif;
     font-weight: 700
