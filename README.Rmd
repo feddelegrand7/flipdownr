@@ -87,19 +87,20 @@ The `dark` and `light` themes are exhibited within the demo above. Below you can
 
 ![](man/figures/gdila.gif)
 
-### ifri
-***
+
 
 
 ### saida
-
+***
 ![](man/figures/saida.gif)
 
 ### youkous 
-
+***
 
 ![](man/figures/youkous.gif)
 
+### ifri
+***
 ![](man/figures/ifri.gif)
 
 

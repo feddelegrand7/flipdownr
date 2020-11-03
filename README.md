@@ -79,17 +79,21 @@ you can check out the other themes:
 
 ![](man/figures/gdila.gif)
 
-### ifri
+### saida
 
 -----
-
-### saida
 
 ![](man/figures/saida.gif)
 
 ### youkous
 
+-----
+
 ![](man/figures/youkous.gif)
+
+### ifri
+
+-----
 
 ![](man/figures/ifri.gif)
 
