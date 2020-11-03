@@ -19,13 +19,13 @@ flipdown <- function(downto, id,
                      theme = "dark",
                      headings = c("Days", "Hours", "Minutes", "Seconds")){
 
-  checkmate::assert_character(downto, any.missing = FALSE,
+  checkmate::assert_character(downto,
+                              any.missing = FALSE,
                               all.missing = FALSE,
                               null.ok = FALSE)
 
   checkmate::assert_character(id, any.missing = FALSE,
-                              all.missing = FALSE,
-                              unique = TRUE)
+                              all.missing = FALSE)
 
   checkmate::assert_character(headings)
 
