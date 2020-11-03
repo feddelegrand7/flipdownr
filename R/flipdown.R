@@ -2,7 +2,7 @@
 #'
 #' @param downto the targeted date in 'yyyy-mm-dd' or 'yyyy-mm-dd hh:mm:ss' format
 #' @param id the id of the flipdown object
-#' @param theme the theme of the flipdown object. Two possible choices: 'dark' or 'light'. Defaults to 'dark'
+#' @param theme the theme of the flipdown object. Possible choices: 'dark', 'light', 'gdila', 'youkous', 'ifri', 'saida'. Defaults to 'dark'
 #' @param headings a character vector specifying the heading related to each time part. Defaults to English headings: c("Days", "Hours", "Minutes", "Seconds")
 #'
 #' @return a countdown object
@@ -19,11 +19,23 @@ flipdown <- function(downto, id,
                      theme = "dark",
                      headings = c("Days", "Hours", "Minutes", "Seconds")){
 
+  checkmate::assert_character(downto, any.missing = FALSE,
+                              all.missing = FALSE,
+                              null.ok = FALSE)
+
+  checkmate::assert_character(id, any.missing = FALSE,
+                              all.missing = FALSE,
+                              unique = TRUE)
+
+  checkmate::assert_character(headings)
+
+
   if(!theme %in% c("dark", "light", "gdila", "youkous", "ifri", "saida")) {
 
-    stop("these themes are available: 'dark', 'light', 'gdila', 'youkous', 'ifri', 'saida")
+    stop("only these themes are available: 'dark', 'light', 'gdila', 'youkous', 'ifri', 'saida'")
 
   }
+
 
   downto <- as.numeric(as.POSIXct(downto))
 

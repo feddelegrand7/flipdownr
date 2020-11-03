@@ -16,7 +16,7 @@ flipdown(
 
 \item{id}{the id of the flipdown object}
 
-\item{theme}{the theme of the flipdown object. Two possible choices: 'dark' or 'light'. Defaults to 'dark'}
+\item{theme}{the theme of the flipdown object. Possible choices: 'dark', 'light', 'gdila', 'youkous', 'ifri', 'saida'. Defaults to 'dark'}
 
 \item{headings}{a character vector specifying the heading related to each time part. Defaults to English headings: c("Days", "Hours", "Minutes", "Seconds")}
 }

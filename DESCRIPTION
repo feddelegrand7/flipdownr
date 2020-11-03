@@ -15,6 +15,7 @@ RoxygenNote: 7.1.1
 Imports: 
     htmltools,
     glue,
-    jsonlite
+    jsonlite,
+    checkmate
 URL: https://github.com/feddelegrand7/flipdownr
 BugReports: https://github.com/feddelegrand7/flipdownr/issues
