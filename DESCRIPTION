@@ -1,7 +1,7 @@
 Package: flipdownr
 Type: Package
 Title: Implement a Countdown in 'RMarkdown' Documents and 'shiny' Applications
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c( 
     person("Mohamed El Fodil", "Ihaddaden", email = "ihaddaden.fodeil@gmail.com", role = c("aut", "cre")),
     person("Butcher", "Peter", role = c("ctb", "cph"), comment = "flipdown.js library developer")) 
