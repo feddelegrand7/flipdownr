@@ -46,17 +46,6 @@ install.packages("flipdownr")
 
 ```
 
-
-Note that the current CRAN version only offers two themes 'dark' and 'light', in order to get the other themes you should install the development version from GITHUB with: 
-
-
-```{r, eval=FALSE}
-
-remotes::install_github("feddelegrand7/flipdownr")
-
-```
-
-
 ## Functions and Arguments
 
 > `flipdownr` has one function: `flipdown` which contains the following arguments: 
