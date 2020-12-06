@@ -17,7 +17,7 @@
 
 flipdown <- function(downto, id,
                      theme = "dark",
-                     headings = c("Days", "Hours", "Minutes", "Seconds")){
+                     headings = c("Days", "Hours", "Minutes", "Seconds")) {
 
   checkmate::assert_character(downto,
                               any.missing = FALSE,
@@ -30,12 +30,23 @@ flipdown <- function(downto, id,
   checkmate::assert_character(headings)
 
 
-  if(!theme %in% c("dark", "light", "gdila", "youkous", "ifri", "saida")) {
+  if (!theme %in% c(
+    "dark",
+    "light",
+    "gdila",
+    "youkous",
+    "ifri",
+    "saida")) {
 
-    stop("only these themes are available: 'dark', 'light', 'gdila', 'youkous', 'ifri', 'saida'")
+    stop("only these themes are available:
+    'dark',
+    'light',
+    'gdila',
+    'youkous',
+    'ifri',
+    'saida'")
 
   }
-
 
   downto <- as.numeric(as.POSIXct(downto))
 
@@ -68,7 +79,7 @@ flipdown <- function(downto, id,
 
     // Do something when the countdown ends
     .ifEnded(() => {{
-      console.log('The countdown has ended!');
+      console.log('The countdown has ended! 🎉');
     }});
 
 
